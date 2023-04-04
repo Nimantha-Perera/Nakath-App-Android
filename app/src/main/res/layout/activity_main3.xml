@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nakath.aurudu_nakath.MainActivity3"
+    android:background="@drawable/gradiant">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wjqreÿ kele;a iSÜgqj"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/txt"
+        android:fontFamily="@font/fx"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="#FFC107"
+        android:padding="10dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txt"
+        android:id="@+id/sc"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/oned"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/white"
+                android:elevation="40dp"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="500dp"
+                    android:src="@drawable/bac"
+                    android:alpha="0.2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/fx"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="kj i| ne,Su i|yd ;j"
+                    android:textSize="16dp"
+                    android:textColor="#FF0000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_margin="0dp">
+
+                    <TextView
+                        android:layout_width="130px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="wNskj pkao% j¾Yh i|yd ud¾;= ui 23 jk n%yiam;skaod
+wNskj iQrH j¾Yh i|yd wfma%,a 23 jk bßod"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textSize="16dp"
+                        android:fontFamily="@font/fx"
+                        android:gravity="center"/>
+
+
+
+                        />
+                </LinearLayout>
+
+                <!-- add your card view content here -->
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/tw7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+
+                android:backgroundTint="@color/white"
+                android:elevation="40dp"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="500dp"
+                    android:src="@drawable/bac"
+                    android:alpha="0.2"/>
+
+                <!-- add your card view content here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/fx"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="mrK wjqreoao i|yd iakdkh"
+                    android:textSize="16dp"
+                    android:textColor="#FF0000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_margin="0dp">
+
+                    <TextView
+                        android:layout_width="130px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="wfma%,a ui 12 fjks nodod"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textSize="16dp"
+                        android:gravity="center"
+                        android:fontFamily="@font/fx"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- add another card view below the first one -->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/twod"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/white"
+                android:elevation="40dp"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="500dp"
+                    android:src="@drawable/bac"
+                    android:alpha="0.2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/fx"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="w¨;a wjqreÿ Wodjg ;j"
+                    android:textSize="16dp"
+                    android:textColor="#FF0000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/fx"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:id="@+id/suba_aluth"
+                    android:text="iqN w¨;a wjqreoaola fõjd"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:visibility="invisible"
+                    android:gravity="center"
+                    android:layout_marginTop="35dp"
+                    />
+
+
+
+                <!-- add your card view content here -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_margin="0dp">
+
+                    <TextView
+                        android:layout_width="130px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Èk"
+                        android:id="@+id/dina"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+
+                        android:fontFamily="@font/fx"/>
+
+                    <TextView
+                        android:layout_width="150px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"
+                        android:layout_margin="5dp"
+                        android:background="@color/black"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:id="@+id/days1"
+                        />
+
+                    <TextView
+                        android:layout_width="120px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:id="@+id/paya"
+                        android:textColor="@color/black"
+                        android:text="meh"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/fx"/>
+
+                    <TextView
+                        android:layout_width="150px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:text="10"
+                        android:background="@color/black"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:id="@+id/hourx1"
+                        />
+
+                    <TextView
+                        android:layout_width="160px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/minit"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="ñks;a;="
+                        android:fontFamily="@font/fx"/>
+
+                    <TextView
+                        android:layout_width="150px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:text="56"
+                        android:id="@+id/minu1"
+                        android:background="@color/black"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:gravity="center"
+
+                        />
+                    <TextView
+                        android:layout_width="150px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/thaht"
+                        android:textColor="@color/black"
+                        android:layout_margin="5dp"
+                        android:textStyle="bold"
+                        android:text=";;amr"
+                        android:fontFamily="@font/fx"/>
+
+                    <TextView
+                        android:layout_width="150px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:text="56"
+                        android:id="@+id/sec1"
+                        android:background="@color/black"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:gravity="center"
+
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/tw2"
+                android:layout_width="match_parent"
+
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/white"
+                android:elevation="40dp"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="500dp"
+                    android:src="@drawable/bac"
+                    android:alpha="0.2"/>
+                <!-- add your card view content here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/fx"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="mqKH ld,h "
+                    android:textSize="16dp"
+                    android:textColor="#FF0000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_margin="0dp">
+
+                    <TextView
+                        android:layout_width="130px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="16dp"
+                        android:text="wfma%,a ui 14 jk isl=rdod Wfoa  8'35 isg tÈk iji 9'23 olajd¡"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+
+                        android:fontFamily="@font/fx"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/tw3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/white"
+                android:elevation="40dp"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="500dp"
+                    android:src="@drawable/bac"
+                    android:alpha="0.2"/>
+                <!-- add your card view content here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/fx"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="wdydr msiSu"
+                    android:textSize="16dp"
+                    android:textColor="#FF0000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_margin="0dp">
+
+                    <TextView
+                        android:layout_width="130px"
+                        android:textSize="16dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="wfma%,a ui 14 jk isl=rdod iji 3'30g "
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:gravity="center"
+                        android:fontFamily="@font/fx"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/tw4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/white"
+                android:elevation="40dp"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="500dp"
+                    android:src="@drawable/bac"
+                    android:alpha="0.2"/>
+
+                <!-- add your card view content here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/fx"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="jev we,a,Su .kqfokq lsÍu yd wdydr wkqNjh"
+                    android:textSize="16dp"
+                    android:textColor="#FF0000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_margin="0dp">
+
+                    <TextView
+                        android:layout_width="130px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="wfma%,a ui 14 fjks isl=rdod Wfoa 5'05g"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:gravity="center"
+
+                        android:fontFamily="@font/fx"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/tw5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+
+                android:backgroundTint="@color/white"
+                android:elevation="40dp"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="500dp"
+                    android:src="@drawable/bac"
+                    android:alpha="0.2"/>
+
+                <!-- add your card view content here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/fx"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="ysif;,a .Eu"
+                    android:textSize="16dp"
+                    android:textColor="#FF0000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_margin="0dp">
+
+                    <TextView
+                        android:layout_width="130px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="wfma%,a ui 16 jk bßod Wfoa 9'41g "
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textSize="16dp"
+                        android:gravity="center"
+                        android:fontFamily="@font/fx"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/tw6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/white"
+                android:elevation="40dp"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="500dp"
+                    android:src="@drawable/bac"
+                    android:alpha="0.2"/>
+
+                <!-- add your card view content here -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/fx"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="/lSrlaId i|yd msg;aj heu"
+                    android:textSize="16dp"
+                    android:textColor="#FF0000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_margin="0dp">
+
+                    <TextView
+                        android:layout_width="130px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="wfma%,a ui 17 jk i÷od Wfoa 06'28g"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textSize="16dp"
+                        android:gravity="center"
+                        android:fontFamily="@font/fx"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

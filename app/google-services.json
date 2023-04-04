@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "875695916701",
+    "project_id": "aurudu-nakath",
+    "storage_bucket": "aurudu-nakath.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875695916701:android:41b16165bdf3fae3503674",
+        "android_client_info": {
+          "package_name": "com.example.aurudu_nakath"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875695916701-5blqr04a37qmhnndcn2mvp9olj866b70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWu8QNjAmquhkm9TrAjhSxYSO9WlEwjSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875695916701-5blqr04a37qmhnndcn2mvp9olj866b70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

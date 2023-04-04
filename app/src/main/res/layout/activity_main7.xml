@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nakath.aurudu_nakath.MainActivity7"
+    android:background="@drawable/gradiant">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fx"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text=",s;"
+        android:background="#FFC107"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fx"
+                android:gravity="center"
+                android:text="kele;a i|yd Y%S ,xldfõ iïu; fõ,dj"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:background="#FD0000"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:padding="6dp"
+                android:layout_marginEnd="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:text=""
+                android:id="@+id/timeTextView"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:background="#FFFFFF"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:padding="6dp"
+                android:layout_marginEnd="20dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fx"
+                android:gravity="center"
+                android:text="Èk o¾Ykh"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:background="#FD0000"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:padding="6dp"
+                android:layout_marginEnd="20dp"
+                />
+            <CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fx"
+                android:gravity="center"
+                android:text="rdyq ld,h"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:background="#FD0000"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:padding="6dp"
+                android:layout_marginEnd="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:text="bßod 04'30 - 06'00 olajd \ni÷od 07'30 - 09'00 olajd \nwÕyrejdod 03'00 - 04'30 olajd \nnodod 12'00 - 01'30 olajd \nn%yiam;skaod 01'30 - 03'00 olajd \nisl=rdod 10'30 - 12'00 olajd \nfikiqrdod 09'00 - 10'30 olajd"
+                android:fontFamily="@font/fx"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:background="#FFFFFF"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:padding="6dp"
+                android:layout_marginEnd="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fx"
+                android:gravity="center"
+                android:text="ure isák ÈYdj"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:background="#FD0000"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:padding="6dp"
+                android:layout_marginEnd="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:text="bßod  - W;=r \ni÷od - jhU \nwÕyrejdod  - ngysr \nnodod - ksß; \nn%yiam;skaod - ol=K \nisl=rdod - .sksfldK \nfikiqrdod - kef.kysr"
+                android:fontFamily="@font/fx"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:background="#FFFFFF"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:padding="6dp"
+                android:layout_marginEnd="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fx"
+                android:gravity="center"
+                android:text="iQkka weÕ jeàfï m,dM,"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:background="#FD0000"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:padding="6dp"
+                android:layout_marginEnd="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:text="හිස - කලහ, මුහුණ බන්ධු දර්ශන, නළල්
+ඨානාන්තර, බැම මැද. බන්ධු නාශ රජුන්ගේ
+ගෞරව, උඩු තොල - වස්තු හානි, මුඛය - ලැබීම, නිකට - රාජ දඩුවම්, දකුණු කණ - දීර්ඝායුෂ, වම් කණ - වෙළඳ ලාභ, හිසකෙස් - මරණ භය, බෙල්ල - සතුරන් හානි, දකුණු උර - නිරෝගි, වම් වළලුකර - කීර්ති, දකුණු අත - භයානකන මරණ, වම් උර - ස්ත්‍රි සැප, දකුණු වළලුකර පීඩා, වම් අත - ශෝක මරණ, දකුණු අතැගිලි - රාජ සම්මාන, භය. වම් පාදය - දුක්, දකුණු පාදයේ ඇගිලි - රාජ භය. දකුණු පාදය රෝග, පිට - සුභ සම්පත්, නියපොතු ධන හානි, ශරීරයේ දිවිවේනම් - දීර්ඝායුෂ
+ඇස - සිර භය, නාසය - ව්‍යාධි, වම් පාදයේ
+ඇගිලි - රුදා සහිත රෝග, යටි තොල - වස්තු
+වමතැගිලි - මිත්‍රයන් සමග කලහ, පපුව - ධන
+ලාභ, තනය - උතුම් ගෞරවයන්, බඩ - ධාන්‍ය ලාභ,
+නැබ - රත්ල මරණය, පිටකොන්ද - ද්‍රව්‍යයන් ලාභ
+ඇස්වට - සැප, දකුණු ඇල - දියුණුවීම, වම් ඇල
+මරණ, ලිගුව - දර්දු රාජ භය, යෝනිය - පුරුෂයාට
+මරණ, ගුදය - වස්තු ලාභ, කලුව - පියාට විපත්,
+දකුණු කෙන්ඩ - බොහෝ පාඩු, වම් කෙන්ඩ - කලහ."
+                android:fontFamily="@font/fx"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:background="#FFFFFF"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:padding="6dp"
+                android:layout_marginEnd="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fx"
+                android:gravity="center"
+                android:text="YqN uqyq¾;"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:background="#FD0000"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:padding="6dp"
+                android:layout_marginEnd="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:lineSpacingExtra="10dp"
+                android:text="කන් විදීම  \nපෙබරවාරි 09 සදුදා උදේ 11:27 ට උතුර බලා, අප්‍රේල් 20 බ්‍රහස්පතින්දා උදේ 09:45 ට නැගෙනහිර බලා, ජූනි 01 බ්‍රහස්පතින්දා උදේ 10:17 ට බටහිර බලා, ජූලි 07 සිකුරාදා උදේ 10125 ට බටහිර බලා, අගෝස්තු 23 බදාදා උදේ 09:50 ට බටහිර බලා. නොවැම්බර් 08 බදාදා උදේ 09:09 ට නැගෙනහිර බලා, දෙසැම්බර් 21 බ්‍රහස්පතින්දා උදේ 10:12 ට නැගෙනහිර බලා\n
+බත් කැවීම\n
+ජනවාරි 12 බ්‍රහස්පතින්දා උදේ 10:27 ට නැගෙනහිර බලා, මාර්තු 16 බ්‍රහස්පතින්දා උදේ 12:00 ට බටහිර බලා, මැයි 24 බදාදා උදේ 09:01 ට උතුර බලා, ජුනි 15 බ්‍රහස්පතින්දා උදේ 09:06 ට නැගෙනහිර බලා, ඔක්තෝම්බර් 11 බදාදා උදේ 09:01 ට නැගෙනහිර බලා, නොවැම්බර් 09 බ්‍රහස්පතින්දා උදේ 09:01 උතුර බලා, දෙසැම්බර් 14 බ්‍රහස්පතින්දා උදේ 11:00 ට නැගෙනහිර බලා.\n අකුරු කියවීමට\n
+ජනවාරි 13 සිකුරාදා උදේ 10:23 ට දකුණ බලා, මාර්තු 16 බ්‍රහස්පතින්දා දවල් 12:00 ට බටහිර බලා, අප්‍රේල් 27 බ්‍රහස්පතින්දා උදේ 09:42 ට උතුර බලා, මැයි 10 බදාදා උදේ 09:03 ට නැගෙනහිර බලා, ජුලි 19 බදාදා උදේ 07:31 ට දකුණ බලා, සැප්තැම්බර් 04 සදුදා උදේ 11:12 ට නැගෙනහිර බලා, දෙසැම්බර් 28 බ්‍රහස්පතින්දා උදේ 09:25 ට නැගෙනහිර බලා.\n හිසකේ කැපීම\n
+ජනවාරි 09 සදුදා උදේ 11:21 ට උතුර බලා, අප්‍රේල් 10 සඳුදා උදේ 11112 ට උතුර බලා, ජූනි 01 බ්‍රහස්පතින්දා උදේ 10:17 ට බටහිර බලා, ජුලි 19 බදාදා උදේ 0731 ට දැකුණ බලා, සැප්තැම්බර් 20 බදදා උදේ 09:12 ට උතුර බලා, නොවැම්බර් 08 බදාදා උදේ 09:09 ට නැගෙනහිර බලා, දෙසැම්බර් 07 බ්‍රහස්පතින්දා උදේ.. 06:12 ට බටහිර බලා\n
+විවාහයට\n
+අප්‍රේල් 27 බ්‍රහස්පතින්දා උදේ 09:42 ට උතුර බලා,
+පෙබරවාරි 10 සිකුරාදා උදේ 10:27 ට උතුර බලා, මැයි 29 සඳුදා උදේ 11i52 ට දකුණ බලා, අගෝස්තු 123 බදාදා උදේ 09150 ට බටහිර බලා, ඔක්තෝම්බර් 20 සිකුරාදා උදේ 10:21 ට නැගෙනහිර බලා, දෙසැම්බර් 14 බ්‍රහස්පතින්දා උදේ 11:00 0 නැගෙනහිර බලා.\n
+වෙළදාමට\n
+පෙබරවාරි 06 සදුදා උදේ 11:27 ට උතුර බලා, අප්‍රේල් 03 සදුදා උදේ 11:05 ට නැගෙනහිර බලා, ජුනි 08 බ්‍රහස්පතින්දා උදේ 09:03 ට උතුර බලා, අගෝස්තු 23 බදාදා උදේ 09:50 ට බටහිර බලා, සැප්තැම්බර් 20 බදාදා උදේ 09:12 ට උතුර බලා, නොවැම්බර් 09 බ්‍රහස්පතින්දා උදේ 09:01 ට උතුර බලා, දෙසැම්බර් 28 බ්‍රහස්පතින්දා උදේ 09:52 ට නැගෙනහිර බලා\n
+ගෙවල් සෑදීමට\n
+ජනවාරි 12 බ්‍රහස්පතින්දා උදේ 10:27 ට නැගෙනහිර බලා, මාර්තු 01 බදාදා උදේ 06:35 ට බටහිර බලා, මැයි 10 බදාදා උදේ 09:03 ට නැගෙනහිර බලා, ජුනි 08 බ්‍රහස්පතින්දා උදේ 09:03 ට උතුර බලා, අගෝස්තු 02 බදාදා උදේ 06:18 ට දකුණ බලා, සැප්තැම්බර් 04 සඳුදා උදේ 11:12 ට නැගෙනහිර බලා, දෙසැම්බර් 14 බ්‍රහස්පතින්දා උදේ 11:00 ට නැගෙනහිර බලා.
+ගෙවදීමට\n
+පෙබරවාරි 06 සදුදා උදේ 11:27 ට උතුර බලා, මැයි 10 බදාදා උදේ 06:01 ට නැගෙනහිර බලා, ජූනි 0:2 සිකුරාදා උදේ 10:05 ට බටහිර බලා, අගෝස්තු 23/n සියළු ගොවිතැන් වැඩට\n ජනවාරි 13 සිකුරාදා උදේ 06:27 ට දකුණ බලා, මාර්තු
+01 බදාදා උදේ 06:35 ට බටහිර බලා, මැයි 10 බදාප උදේ 06:01 ට නැගෙනහිර බලා, ජුලි 10 සදුදා උදේ 06:25 ට උතුර බලා, සැප්තැම්බර් 06 බදාදා උදේ 06:08 ට දකුණ බලා, නොවැම්බර් 22 බදාදා උදේ 06:05 ට බටහිර බලා, දෙසැම්බර් 08 සිකුරාදා උදේ 06:12 ට දකුණ බලා.\n මහණ කිරීමට\n
+ජනවාරි 27 සිකුරාදා උදේ 09:05 ට උතුර බලා, මාර්තු 01 බදාදා උදේ 06:35 ට බටහිර බලා, මැයි 10 බදාදා උදේ 09:03 ට නැගෙනහිර බලා, ජුලි 05 බදාදා උදේ 09:08 ට දකුණ බලා, අගෝස්තු 02 බදාද උදේ 06:18 ට දකුණ බලා, ඔක්තෝම්බර් 11 බදාදා උදේ 09:01 ට නැගෙනහිර බලා. "
+
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:background="#FFFFFF"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:padding="6dp"
+                android:layout_marginEnd="20dp"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nakath.aurudu_nakath.MainActivity4"
+    android:background="@drawable/gradiant"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fx"
+        android:text="wema tfla úia;rh"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:background="#FFC107"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:padding="40dp"
+
+
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/fx"
+            android:gravity="center"
+            android:text="wema tl Ndú;h .ek"
+
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/fx"
+            android:gravity="center"
+            android:text="Tnf.a iaud¾Ü ÿrl;kfha fõ,dj jerÈkï ksjerÈ lr.kak"
+
+            android:textSize="17dp"
+
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:fontFamily="@font/fx"
+            android:text="kele;a fõ,dj u; la,sla lsÍfuka kel;a ms,sn| jeäÿr f;dr;=re oelsh yelsh"
+
+            android:textSize="17dp"
+
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/fx"
+            android:text="fuh l%shd;aul ùfï§ uqyqk;a iajrEmh fjkia fkdlrkak"
+
+            android:textSize="17dp"
+
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:fontFamily="@font/fx"
+            android:text="wema tfla ksuejqu .ek"
+
+            android:layout_marginTop="20dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:fontFamily="@font/fx"
+            android:text="fuys wka;¾.;h 100]la ksjerÈh"
+
+            android:textSize="17dp"
+
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/fx"
+            android:text="wema tfla ks¾ud;D"
+
+            android:layout_marginTop="20dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="P.W Nimantha Perera"
+
+            android:textSize="17dp"
+
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/fx"
+            android:text="wu;kak"
+
+            android:layout_marginTop="20dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0762938664"
+
+            android:textSize="17dp"
+
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/fx"
+            android:text="wkqjdoh"
+            android:gravity="center"
+
+            android:layout_marginTop="20dp"
+            android:textSize="17dp"
+
+
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="1.0"
+
+            android:textSize="17dp"
+
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
